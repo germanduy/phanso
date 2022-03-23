@@ -66,9 +66,10 @@ public class lopPhanSo {
     }
     //rút gọn phân số
     void rutgonPhanSo(){
-        setA(getA()/timUcln());
-        setB(getB()/timUcln());
-        System.out.println("Phân số rút gọn là: "+getA()+"/"+getB());
+        int tuso,mauso;
+        tuso=getA()/timUcln();
+        mauso=getB()/timUcln();
+        System.out.println("Phân số rút gọn là: "+tuso+"/"+mauso);
     }
     //Nghịc đảo phân số
     void nghichdaoPhanSo(){
